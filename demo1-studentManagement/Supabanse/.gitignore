@@ -1,0 +1,6 @@
+# Supabanse 目录忽略
+.env
+.env.*
+node_modules
+.DS_Store
+*.log

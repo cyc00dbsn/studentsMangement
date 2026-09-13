@@ -37,3 +37,10 @@ __screenshots__/
 
 # Vite
 *.timestamp-*-*.mjs
+
+# 最重要！防止把.env提交上去
+.env
+.env.local
+.env.development
+.env.production
+.env.*
