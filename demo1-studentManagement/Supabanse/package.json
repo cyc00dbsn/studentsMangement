@@ -1,0 +1,21 @@
+{
+  "name": "supabanse",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenvx run -- node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^2.22.0",
+    "@supabase/supabase-js": "^2.112.4",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0"
+  }
+}
